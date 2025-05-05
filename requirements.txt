@@ -1,4 +1,3 @@
-elasticsearch
-python-dotenv
-pandas
-numpy
+torch
+open-clip-torch
+tqdm
