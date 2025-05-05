@@ -1,0 +1,4 @@
+name: clip-baseline
+task: image-retrieval-for-arguments
+entrypoint: python3 submission.py --input-dir $inputDataset --output-dir $outputDir
+type: software
