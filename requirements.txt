@@ -1,0 +1,4 @@
+elasticsearch
+python-dotenv
+pandas
+numpy
