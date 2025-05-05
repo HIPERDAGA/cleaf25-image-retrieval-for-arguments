@@ -4,12 +4,13 @@
 
 
 #**Image Retrieval/Generation for Arguments 2025**
-Team: **Computer Vision UTB**;
 
-Affiliation: **CEDNAV**;
+Team: **Computer Vision UTB**
 
-Country: **COLOMBIA**;
+Affiliation: **CEDNAV**
 
-Contact Person: **DIEGO GUEVARA**;
+Country: **COLOMBIA**
 
-Contact email: **hiperdaga7@gmail.com**.
+Contact Person: **DIEGO GUEVARA**
+
+Contact email: **hiperdaga7@gmail.com**
