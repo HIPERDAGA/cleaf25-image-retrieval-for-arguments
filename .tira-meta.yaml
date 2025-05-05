@@ -1,4 +1,5 @@
-name: clip-baseline
-task: image-retrieval-for-arguments
-entrypoint: python3 submission.py --input-dir $inputDataset --output-dir $outputDir
-type: software
+name: clip-image-retrieval
+type: docker
+description: Baseline con CLIP para recuperar imágenes relacionadas a argumentos.
+entrypoint: docker
+image: ghcr.io/tu-usuario/tu-repo:latest
