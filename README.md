@@ -3,7 +3,7 @@
 <img src="https://github.com/HIPERDAGA/EO-Target-Tracking/blob/main/firma_animada.gif?raw=true" width="320">
 
 
-#**Image Retrieval/Generation for Arguments 2025**
+# **Image Retrieval/Generation for Arguments 2025**
 
 Team: **Computer Vision UTB**
 
