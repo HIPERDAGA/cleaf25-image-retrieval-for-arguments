@@ -1,0 +1,13 @@
+name: Run Submission on TIRA
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  run-on-tira:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: tira-io/tira-github-action@main
+        with:
+          tira-client-token: ${{ secrets.TIRA_CLIENT_TOKEN }}
