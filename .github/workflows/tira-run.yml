@@ -21,5 +21,5 @@ jobs:
           pip3 install tira
       - name: Build, test, and upload image
         run: |
-          docker build -t registry.webis.de/code-research/tira/tira-user-computer-vision-utb/github-action-submission:0.0.1 -f ${{ github.workspace }}/Dockerfile ${{ github.workspace }}
-          tira-run --tira-client-token ${{ secrets.TIRA_CLIENT_TOKEN }} --input-dataset advertisement-in-retrieval-augmented-generation-2025/ads-in-rag-task-1-generation-spot-check-20250423_1-training --image registry.webis.de/code-research/tira/tira-user-computer-vision-utb/github-action-submission:0.0.1 --push true --fail-if-output-is-empty
+          docker build -t registry.webis.de/code-research/tira/tira-user-cednav-utb/github-action-submission:0.0.1 -f ${{ github.workspace }}/Dockerfile ${{ github.workspace }}
+          tira-run --tira-client-token ${{ secrets.TIRA_CLIENT_TOKEN }} --input-dataset touche-task-3/full-rank-2023-20230330-training --image registry.webis.de/code-research/tira/tira-user-cednav-utb/github-action-submission:0.0.1 --push true --fail-if-output-is-empty
